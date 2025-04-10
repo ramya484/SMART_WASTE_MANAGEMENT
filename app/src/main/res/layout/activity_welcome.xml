@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="290dp"
+    android:layout_height="300dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#E8F5E9"
+    android:layout_marginStart="55dp"
+    android:layout_marginTop="180dp"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="32dp"
+        android:text="SMART BIN"
+        android:textColor="#388E3C"
+        android:textSize="28sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="5dp"
+        android:backgroundTint="#2E7D32"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2E7D32"
+        android:text="Register" />
+
+
+</LinearLayout>

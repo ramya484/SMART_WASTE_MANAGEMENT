@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="315dp"
+    android:layout_height="346dp"
+    android:layout_marginStart="50dp"
+    android:layout_marginTop="120dp"
+    android:background="#E8F5E9"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="16dp"
+        android:text="Details"
+        android:layout_marginBottom="10dp"
+        android:textColor="#388E3C"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/et_waste_type"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Type of Waste"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/et_waste_location"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Location"
+        android:layout_marginBottom="16dp"/>
+
+
+
+    <Button
+        android:id="@+id/btn_submit_report"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2E7D32"
+        android:text="Submit Report" />
+</LinearLayout>

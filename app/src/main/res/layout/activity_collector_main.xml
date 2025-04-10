@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="315dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:layout_marginStart="55dp"
+    android:layout_marginTop="150dp"
+    android:gravity="center"
+    android:background="#E8F5E9"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Activities"
+        android:textColor="#388E3C"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btn_view_reports"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2E7D32"
+        android:text="View Reports" />
+
+    <Button
+        android:id="@+id/btn_recycle_report"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2E7D32"
+        android:text="Recycle Report" />
+
+    <Button
+        android:id="@+id/btn_hotspots"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2E7D32"
+        android:text="Hotspots" />
+</LinearLayout>
